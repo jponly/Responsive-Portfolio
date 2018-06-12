@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-Portfolio implementing mobile responsive layout
+# Basic-Portfolio
+Assignment_1: portfolio created with html/css
