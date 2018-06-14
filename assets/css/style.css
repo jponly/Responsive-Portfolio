@@ -10,6 +10,7 @@ body, html {
 }  
 
 
+
 #head {
     color: white;
     font-size: 20px;
@@ -459,10 +460,89 @@ input[type=submit] {
 
 
    /* Media Queries */
+   @media screen and (max-width: 980px) {
+    
+       .clearfix {
+           width: 100%;
+       }
+       section{
+           width: 100%;
+       }
+       .footer_fix{
+           width: 100%;
+       }
+       .galleryBox{
+           width: 100%;
+       }
+       .footer {
+        width: 100%;
+       }
+       .sectionShift{
+           width: 100%;
+       }
+       #para_floated {
+           width: 100%;
+       }
+      
+     }
+
+   
+   @media screen and (max-width: 768px){
+    
+     .clearfix {
+        width: 100%;
+       }
+     section{
+        width: 100%;
+       }
+     .footer_fix{
+        width: 100%;
+       }
+       .galleryBox {
+        width: 100%;
+       }
+       .footer {
+        width: 100%;
+       }
+       .sectionShift{
+        width: 100%;
+       }
+       #para_floated {
+        width: 100%;
+       }
+       
+   }
+   @media screen and (max-width: 640px){
+    
+    .clearfix {
+        width: 100%;
+      }
+    section{
+        width: 100%;
+      }
+    .footer_fix{
+        width: 100%;
+      }
+      .galleryBox{
+        width: 100%;
+      }
+      .footer {
+          width: 100%;
+      }
+      .sectionShift{
+        width: 100%;
+      }
+      #para_floated {
+        width: 100%;
+      }
+      
+
+   }
+   
 
    /*--- 980px ---*/
 
-   @media screen and (max-width: 980px) {
+   /*@media screen and (max-width: 980px) {
     
     #head {
         width: 100%;
@@ -608,153 +688,153 @@ input[type=submit] {
   
    /*----- 768px ------*/
 
-   @media screen and (max-width: 768px) {
+  /*@media screen and (max-width: 768px) {
     
     #head {
-        width: 100%;
+        width: 85%;
         }
     
     body {
-        width: 100%;
+        width: 85%;
     }
     .header_links {
-        width: 100%;
+        width: 85%;
     }
     #para_floated {
-        width: 100%;
+        width: 85%;
     }
     #para_font {
-        width: 100%;
+        width: 85%;
     }       
     .links {
-        width: 100%;
+        width: 85%;
     }
     nav {
-        width: 100%;
+        width: 85%;
     }
     nav a {
-        width: 100%;
+        width: 85%;
     }
     .top_line {
-        width: 100%;
+        width: 85%;
     }
     #about {
-        width: 100%;
+        width: 85%;
         }
     .line {
-        width: 100%;
+        width: 85%;
         }
     #mainImage {
-        width: 100%;
+        width: 60%;
     }
     section { 
         width: 100%;
     }
     .sectionShift { 
-        width: 100%;
+        width: 85%;
     }
     .galleryBox { 
-        width: 100%;
+        width: 85%;
     }
     p   {
-        width: 100%;
+        width: 85%;
        
     }
     img {
-        width: 100%;
+        width: 85%;
     
     }
     .footer {
-        width: 100%;
+        width: 85%;
     }
     .footer_fix {
-        width: 100%;
+        width: 85%;
             
     }
     .copyright {
-        width: 100%;
+        width: 85%;
     }
     .footer_line {
-        width: 100%;
+        width: 85%;
     
     }
     #form {
-        width: 100%;
+        width: 85%;
     }
     #contact {
-        width: 100%;
+        width: 85%;
     }
     .aboutTitle {
-        width: 100%;
+        width: 85%;
     }
     .contactTitle {
-        width: 100%;
+        width: 85%;
     }
     .portTitle {
-        width: 100%;
+        width: 85%;
     }
     div.gallery {
-        width: 100%;
+        width: 85%;
     }
     div.gallery img {
-            width: 100%;
+            width: 85%;
     }
     .desc {
-        width: 100%;
+        width: 85%;
              
     }
     div.gallery1 {
-        width: 100%;
+        width: 85%;
     }
     div.gallery1 img {
-            width: 100%;
+            width: 85%;
     }
     div.desc1 {
-        width: 100%;
+        width: 85%;
     }
     div.gallery2 {
-        width: 100%;
+        width: 85%;
     }
     div.gallery2 img {
-            width: 100%;
+            width: 85%;
     }
     div.desc2 {
-        width: 100%;
+        width: 85%;
     }
     div.gallery3 {
-        width: 100%;
+        width: 85%;
         }
     div.gallery3 img {
-            width: 100%;
+            width: 85%;
     }
     div.desc3 {
-        width: 100%;
+        width: 85%;
     }
     div.gallery4 {
-        width: 100%;
+        width: 85%;
     }
     div.gallery4 img {
-            width: 100%;
+            width: 85%;
             
     }
     div.desc4 {
-        width: 100%;
+        width: 85%;
     }
     input {
-        width: 100%;
+        width: 85%;
     }
     #textboxid {
-        width: 100%;
+        width: 85%;
     }
     input[type=submit] {
-        width: 100%;
+        width: 85%;
     }
 
    }
 
    /*----- 640px ------*/
 
-   @media screen and (max-width: 640px) {
+   /* @media screen and (max-width: 640px) {
     
     #head {
         width: 100%;
@@ -791,7 +871,7 @@ input[type=submit] {
         width: 100%;
         }
     #mainImage {
-        width: 100%;
+        width: 50%;
     }
     section { 
         width: 100%;
@@ -896,7 +976,7 @@ input[type=submit] {
         width: 100%;
     }
 
-   }
+   } 
             
    
    
